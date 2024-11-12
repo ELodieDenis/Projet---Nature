@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/HTML/Toutes les actualités.html">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -45,23 +46,39 @@
                     <div class="photo">
                         <div class="h1__photo">
                             <h1>Le parc de Yosemite</h1>
+                            <p>Le parc national de Yosemite, situé en Californie, est célèbre pour ses paysages spectaculaires : immenses falaises de granit, cascades majestueuses, et séquoias géants. Ce site classé au patrimoine mondial de l'UNESCO abrite une faune variée et des paysages emblématiques comme Half Dome et El Capitan, attirant chaque année des millions de visiteurs en quête de nature et d'aventure.</p>
+                        </div>
+                        <div class="button__see__more">
+                            <button>See more</button>
                         </div>
                         <img  src="/images/Parc national de Yosemite.png" alt="Parc de Yosemite">
+
                     </div>
                     <div class="photo">
+                        <div class="h1__photo">
+                            <h1>Les cascades d'Ouzoud</h1>
+                            <p>
+                                Les cascades d'Ouzoud, situées dans l'Atlas marocain, sont un site naturel impressionnant avec leurs chutes d'eau de 110 mètres entourées de végétation luxuriante et d'oliveraies. Ce lieu pittoresque attire de nombreux visiteurs, qui viennent admirer les arcs-en-ciel formés par les éclaboussures et observer les singes locaux dans un cadre enchanteur.</p>
+                        </div>
+                        <div class="button__see__more">
+                            <button>See more</button>
+                        </div>
                         <img src="/images/Cascades d'Ouzoud.png" alt="Les cascades d'Ouzoud">
                     </div>
                     <div class="photo">
+                        <div class="h1__photo">
+                            <h1>Le glacier Perito Moreno</h1>
+                            <p>
+                                Le glacier Perito Moreno, situé en Patagonie argentine, est l'un des glaciers les plus spectaculaires et accessibles au monde. Avec ses murs de glace bleutée s'élèvent à 70 mètres au-dessus de l'eau, il offre un spectacle impressionnant, notamment lorsque des blocs de glace se détachent et s'effondrent dans le lac Argentino.</p>
+                        </div>
+                        <div class="button__see__more">
+                            <button>See more</button>
+                        </div>
                         <img src="/images/Glacier Perito Moreno.png" alt="Glacier Perito Moreno">
                     </div>
                 </div>
             </div>
         </div>
-        
-
-        <!-- <div class="h1-accueil" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
-            <h1>Protéger la Nature, <br>Préserver le Futur</h1>
-        </div> -->
     
         <!-- Articles actualités -->
         <div class="articles-accueil">
@@ -71,11 +88,11 @@
                         <img src="images/COP 16 - Feuille.jpg" alt="Image d'une feuille d'arbre">
                         <h3>COP 16 - <br>L'avenir de la biodiversité</h3>
                 </a>
-                <a href="/HTML/Article 2.html" target="_blank" class="article2" data-aos="zoom-in" data-aos-delay="0">
+                <a href="/HTML/Article 2.html" target="_blank" class="article2" data-aos="zoom-in" data-aos-delay="150">
                     <img src="images/Eolienne en mer.jpg" alt="Image de plusieurs éoliennes en mer">
                     <h3>Eolienne en mer - <br>Un danger pour la biodiversité</h3>
                 </a>
-                <a href="/HTML/Article 3.html" target="_blank" class="article3" data-aos="zoom-in" data-aos-delay="0">
+                <a href="/HTML/Article 3.html" target="_blank" class="article3" data-aos="zoom-in" data-aos-delay="300">
                     <img src="/images/Chardonneret.jpg" alt="Chardonneret élégant">
                     <h3>Le retour du piégeage non sélectif</h3>
                 </a>
@@ -110,9 +127,9 @@
             <div class="rs-footer">
                 <h4>Réseaux sociaux</h4>
                 <div class="logos-rs">
-                    <img src="/images/Logo Linkedin.png" alt="Logo de Linkedin">
-                    <img src="/images/Logo facebook.png" alt="Logo de Facebook">
-                    <img src="/images/Logo Instagram.png" alt="Logo d'Instagram">
+                    <img class="linkedin" src="/images/Logo Linkedin.png" alt="Logo de Linkedin">
+                    <img class="facebook" src="/images/Logo facebook.png" alt="Logo de Facebook">
+                    <img class="instagram" src="/images/Logo Instagram.png" alt="Logo d'Instagram">
                 </div>
                 <div class="contact-rs">
                     <h4>Contact</h4>
@@ -134,7 +151,10 @@
         AOS.init();
     </script>
 
+    <!-- Swiper slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Script.js -->
     <script src="/JavaScript/Toutes les actualités.js"></script>
     <script src="script.js"></script> 
     

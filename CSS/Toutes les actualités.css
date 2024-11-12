@@ -111,7 +111,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1900px;
-    height: 370px;
+    min-height: 370px;
     gap: 100px;
     padding: 30px 70px 60px 70px;
 }
@@ -330,7 +330,6 @@ footer{
 }
 
 .footer{
-    position: fixed;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     bottom: 0;
